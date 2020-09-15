@@ -1,18 +1,16 @@
 const FILES_TO_CACHE = [
     "/",
-    "/public/index.html",
-    "/public/index.js",
-    "/public/style.css",
-    "/public/db.js",
-    "/assets/js/loadPosts.js",
+    "/index.html",
+    "/index.js",
+    "/styles.css",
+    "/db.js",
     "/manifest.webmanifest",
-    "/public/icons/icon-192x192.png",
-    "/public/icons/icon-512x512.png",
-    "/models/transaction.js"
+    "/icons/icon-192x192.png",
+    "/icons/icon-512x512.png",
   ];
   
-  const CACHE_NAME = "static-cache-v2";
-  const DATA_CACHE_NAME = "data-cache-v1";
+  const CACHE_NAME = "static-cache-v2.1";
+  const DATA_CACHE_NAME = "data-cache-v1.1";
   
   // install
   self.addEventListener("install", function(evt) {
